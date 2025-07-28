@@ -126,5 +126,4 @@ def run_daily_scrape_and_store():
     # Add a delay to be polite to the server, especially if running frequently
     time.sleep(5) # Wait for 5 seconds before exiting (if this were a single run)
 
-# --- Uncomment the line below to test the scraping function ---
-run_daily_scrape_and_store()
+run_daily_scrape_and_store(output_format="csv", output_directory="nifty_data_csv")
