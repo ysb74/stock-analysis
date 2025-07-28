@@ -1,2 +1,2 @@
 # stock-analysis
-nifty 50 stock price analysiiss
+nifty 50 stock price analysis
