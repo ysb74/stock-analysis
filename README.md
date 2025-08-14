@@ -54,6 +54,7 @@ This script trains and evaluates a variety of traditional machine learning model
 ```Bash
 python market_predictor.py
 ```
+
 The script will output the performance metrics for each model, followed by predictions for the next day and month, and a list of any detected anomalies.
 
 ### Option B: Deep Neural Network (nifty_dnn_predictor.py)
@@ -73,12 +74,14 @@ The output will include the DNN's evaluation metrics, its future predictions, an
 └── nifty_daily_data_csv/       # Directory for scraped historical data
     └── ... (your CSV files)
 ```
+
 ### Models & Algorithms
 ```
 Model Type	Script	Models Included	Prediction Method	Anomaly Detection
 Traditional ML	market_predictor.py	Ridge Regression, GradientBoostingRegressor, ARIMA	Direct prediction (Ridge, GB), Time-series forecast (ARIMA)	IsolationForest
 Deep Learning	nifty_dnn_predictor.py	Feed-Forward Neural Network (FFNN)	Iterative prediction	Prediction residuals (error-based)
 ```
+
 ### Contributing
 Contributions are welcome! If you have suggestions for new features, model improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
