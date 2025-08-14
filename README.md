@@ -64,7 +64,7 @@ This script trains a single DNN model for prediction and uses the prediction err
 python nifty_dnn_predictor.py
 The output will include the DNN's evaluation metrics, its future predictions, and a list of anomalies detected based on large prediction errors.
 ```
-###File Structure
+### File Structure
 ```
 .
 ├── market_predictor.py         # Script with traditional ML models
